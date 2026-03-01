@@ -1,0 +1,79 @@
+.sticky-top {
+    background-color: white !important;
+    opacity: 1 !important;
+}
+
+.block-title {
+    padding-top: 20px;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+    color: #4d19cc;
+}
+
+.card-university {
+    height: 100px;
+    width: 100%;
+    padding: 20px 25px;
+    background-color:#4d19cc;
+    color: white;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 100px;
+    text-align: center;
+}
+
+.card-news{
+    height: 100%;
+    color: #4d19cc;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.card-news img {
+    border-radius: 15px; 
+    width: 100%;
+    height: 200px;
+    object-fit: cover; 
+}
+
+.card-review {
+    background-color: #4d19cc;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.card-review img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.content-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-group .name {
+    font-size: 2rem;
+}
+
+.content-group .text {
+    font-size: 1.5rem;
+}
+
+.rating {
+    font-size: 3rem;
+    font-weight: bold;
+}
